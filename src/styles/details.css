@@ -1,0 +1,43 @@
+.page-content {
+  background-color: #f9d71c;
+  color: black;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  width: 600px;
+  text-align: center;
+  padding: 50px;
+}
+
+.people-heading {
+  color: white;
+  width: 800px;
+  margin-left: 20% !important;
+}
+
+.character-name {
+  color: aqua;
+}
+
+.page-center {
+  margin: 25px 30% 75px;
+}
+
+.back-button {
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 16px;
+  margin-top: 30px;
+  margin-left: 150px;
+  border-radius: 15px;
+  border-color: white;
+  font-size: 16px;
+}
+.back-button:hover {
+  background-color: #f9d71c;
+  color: black;
+}
+
+.button_margin {
+  margin-left: 120px;
+}

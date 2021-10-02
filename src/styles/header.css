@@ -1,0 +1,12 @@
+.main-header {
+  text-align: center;
+
+  height: 80px;
+
+  box-shadow: 0 8px 6px 0 hsla(0, 6%, 68%, 0.2);
+}
+
+.logo-image {
+  height: 90px;
+  width: 205px;
+}

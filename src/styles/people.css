@@ -1,0 +1,42 @@
+.ui.grid {
+  margin: 50px !important;
+ 
+}
+
+.ui.card.card-details {
+  background-image: url(../assets/background-image.jpeg);
+}
+
+.ui.card > .content > .header.card-content-header {
+  font-size: 2.3em;
+  color: yellow;
+  padding: 10px 30px;
+  text-align: center;
+  font-weight: 900;
+}
+
+.ui.card > .content > .description.card-content-description {
+  color: gray;
+  font-size: 1em;
+  text-align: initial;
+  padding: 8px 30px;
+  font-weight: 200;
+}
+
+.ui.card > .content > .description.card-content-description .card-values {
+  color: aqua !important;
+}
+
+.button {
+  text-align: center;
+  padding: 5px 10px;
+  background-color: rgb(255, 225, 0);
+  color: black;
+  border: 1px solid rgb(192, 174, 36);
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 600;
+  transition: 0.3s;
+  margin-bottom: 30px;
+}
