@@ -29,7 +29,7 @@ export default function App() {
       <header>
         <Header />
       </header>
-      {status === 0 ? <p>Loading...</p> : null}
+      {status === 0 ? <h1 style={{ color: 'yellow' }}>Loading...</h1> : null}
       {status === 1 ? <Routing people={information} /> : null}
       {status === 2 ? <p>Sorry we cannot find data</p> : null}
     </div>
