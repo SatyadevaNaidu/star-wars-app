@@ -4,6 +4,7 @@ import Search from "./search";
 import Details from "./Details";
 
 export default function Routing({ people }) {
+  /* Naviagates to every character and used for searching among the characters */
   return (
     <Router>
       <Switch>
