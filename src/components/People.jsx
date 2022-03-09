@@ -5,11 +5,12 @@ import "../styles/style.css";
 
 export default function People({ people }) {
   return (
-    <>
       <Grid columns={3}>
         {people.map((link) => {
           const splitArray = link.url.split("/");
           const id = splitArray[splitArray.length - 2];
+
+          /* Returns list of characters to be displayed in home page */
           return (
             <Grid.Column key={id}>
               <Card className="card-details">
@@ -35,6 +36,5 @@ export default function People({ people }) {
           );
         })}
       </Grid>
-    </>
   );
 }
