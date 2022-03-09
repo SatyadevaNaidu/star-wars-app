@@ -11,7 +11,7 @@ export default function App() {
   useEffect(() => {
     const getData = async () => {
       try {
-        const response = await fetch(endpoint, { mode: "cors" });
+        const response = await fetch(endpoint);
         const people = await response.json();
         console.log("oredr", people);
         setInformation(people.results);
