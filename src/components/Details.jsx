@@ -6,17 +6,20 @@ import Description from "./Description";
 import "../styles/style.css";
 
 export default function DetailView({ people }) {
+
   const { id } = useParams();
   const { push } = useHistory();
+
+  /* Get details of specific character */
   const selectedPerson = people.find((person) => {
     const splitArray = person.url.split("/");
     const matchid = splitArray[splitArray.length - 2];
     return matchid === id;
   });
   const { eye_color, gender, hair_color, skin_color } = selectedPerson;
-  return (
-  
 
+  /* Returns contents of the character */
+  return (
       <section className="page-center">
         <h1 className="people-heading">
           Lets see more about  <span className='character-name'>  {selectedPerson.name}</span>
